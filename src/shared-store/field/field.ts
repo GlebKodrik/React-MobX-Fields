@@ -16,7 +16,7 @@ class FieldStore {
     makeAutoObservable(this);
     this._fieldType = props.fieldType ?? 'input';
     this._name = props.name ?? null;
-    this._value = props.value ?? null;
+    this._value = props.value ?? '';
     this._validationRule = props.validationRule ?? null;
     this._errorMessage = props.errorMessage ?? null;
   }
